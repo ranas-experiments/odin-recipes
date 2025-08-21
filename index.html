@@ -3,14 +3,39 @@
     <head>
         <meta charset="UTF-8">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="styles/style.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-        <p>Here is a list of recipes provided by sore and lousy fingers.</p>
-        <ul>
-            <li><h2><a href="recipes/ghorme-sabzi.html">Ghorme Sabzi</a></h2></li>
-            <li><h2><a href="recipes/shole-zard.html">Shole Zard</a></h2></li>
-            <li><h2><a href="recipes/mast.html">Khoresh Mast</a></h2></li>
-        </ul>
+        <header class="header">
+            <img src="images/cookbook.png" alt="cookbook logo" class="logo">
+            <nav>
+                <ul class="links">
+                    <li><a href="#cards">Cards</a></li>
+                    <li>login</li>
+                    <li>sign-up</li>
+                </ul>
+            </nav>
+        </header>
+        <main class="recipes-container" id="cards">
+            <h1>Odin Recipes</h1>
+            <p class="introduction">Here is a list of recipes provided by sore and lousy fingers.</p>
+            <ul class="recipes">
+                <li class="recipe ghorme-sabzi">
+                    <h2><a href="recipes/ghorme-sabzi.html">Ghorme Sabzi</a></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ducimus dignissimos velit incidunt facere magni eos perferendis modi eligendi saepe necessitatibus, iste debitis cumque.</p>
+                </li>
+                <li class="recipe shole-zard">
+                    <h2><a href="recipes/shole-zard.html">Shole Zard</a></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ducimus dignissimos velit incidunt facere magni eos perferendis modi eligendi saepe necessitatibus, iste debitis cumque.</p>
+                </li>    
+                <li class="recipe mast">
+                    <h2><a href="recipes/mast.html">Khoresh Mast</a></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ducimus dignissimos velit incidunt facere magni eos perferendis modi eligendi saepe necessitatibus, iste debitis cumque.</p>
+                </li>
+            </ul>
+        </main>
+        <footer class="footer">
+            <p><em>flexbox is tough.</em></p>
+        </footer>
     </body>
 </html>
